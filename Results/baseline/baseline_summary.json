@@ -1,0 +1,20 @@
+{
+  "model": "yolov8n.pt",
+  "split": "test",
+  "images": 734,
+  "evaluated_classes": 10,
+  "excluded_classes": [
+    "Cup",
+    "Table"
+  ],
+  "imgsz": 640,
+  "nms_iou": 0.7,
+  "ap_conf_threshold": 0.001,
+  "fixed_metric_confidence": 0.25,
+  "mAP50": 0.4812512181735168,
+  "mAP50_95": 0.25895439611130294,
+  "mean_precision_at_025": 0.6574813208609072,
+  "mean_recall_at_025": 0.43796016020712364,
+  "mean_yolo_inference_ms_per_image": 10.167015117162014,
+  "wall_time_seconds": 88.44499608700062
+}

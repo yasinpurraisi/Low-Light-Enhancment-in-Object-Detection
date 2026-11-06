@@ -1,0 +1,37 @@
+[
+  {
+    "Method": "Original",
+    "mAP50": 0.4813,
+    "mAP50-95": 0.259,
+    "Precision": 0.6575,
+    "Recall": 0.438
+  },
+  {
+    "Method": "Gamma",
+    "mAP50": 0.4102,
+    "mAP50-95": 0.2148,
+    "Precision": 0.6539,
+    "Recall": 0.3587
+  },
+  {
+    "Method": "CLAHE",
+    "mAP50": 0.4128,
+    "mAP50-95": 0.2202,
+    "Precision": 0.637,
+    "Recall": 0.3665
+  },
+  {
+    "Method": "Zero-DCE",
+    "mAP50": 0.2941,
+    "mAP50-95": 0.1522,
+    "Precision": 0.6157,
+    "Recall": 0.2509
+  },
+  {
+    "Method": "SCI",
+    "mAP50": 0.2975,
+    "mAP50-95": 0.1534,
+    "Precision": 0.604,
+    "Recall": 0.2609
+  }
+]
